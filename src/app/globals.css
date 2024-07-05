@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Personalización de estilos */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: black;
+}
+
+/* Resto de estilos */
+.navbar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar-container h1 {
+  color: rgba(67, 175, 241, 1);
+  margin-left: 10rem;
+  font-size: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 6rem;
+}
+
+.buttonIndex {
+  color: rgb(118, 83, 205);
+  border-radius: 0.25rem;
+  font-size: 2rem;
+  z-index: 20;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  top: 26rem;
+  left: 44rem;
+}
+
+.buttonIndex:hover {
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  color: azure;
+}
+
+.card-container h2 {
+  font-size: 1.5rem;
+}
+
+.card-container p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.divcontenedorCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #F3F4F6;
+  color: #111827;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 400px; /* Establecer una altura fija */
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  flex-grow: 1; /* Hace que este elemento ocupe el espacio restante */
+}
+
+.card img {
+  max-width: 100%;
+  height: 200px; 
+  object-fit: contain; 
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+
+.card button {
+  background-color: #6B7280;
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #4B5563;
+}
+
+
+
+.buttonFormat {
+  background-color: #6B7280;
+  color: #FFFFFF;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.buttonFormat:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
