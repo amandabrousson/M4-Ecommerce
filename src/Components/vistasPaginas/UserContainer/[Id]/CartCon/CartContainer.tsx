@@ -3,6 +3,7 @@ import React from 'react';
 import DeleteButton from "@/Components/elementos/data/botones/trashButton";
 import Button from "@/Components/elementos/data/botones/backtoProducts";
 import { useCartLogic } from '@/Components/elementos/Cart/cartLogic'; 
+import { useRouter } from 'next/navigation';
 
 interface CartContainerProps {
   userId: number;
@@ -10,8 +11,15 @@ interface CartContainerProps {
 }
 
 const CartContainer: React.FC<CartContainerProps> = ({ userId, showButtons = true }) => {
+  const router = useRouter(); 
   const {cart, total, clearCart, updateTotal, removeFromCart, handleQuantityChange, confirmClearCart, HandleCheckout} = useCartLogic();
 
+  const handleCheckoutClick = () => {
+    HandleCheckout(cart, clearCart, updateTotal);
+    setTimeout(() => {
+      router.push(`/User/${userId}/dashboard`);
+    }, 3000);
+  };
   return (
     <div className="bg-gray-800 text-white p-8 rounded-lg sm:m-6 md:m-10 xl:m-20 lg:m-10">
       <h1 className="text-3xl text-center mb-8">Carrito</h1>
@@ -56,7 +64,7 @@ const CartContainer: React.FC<CartContainerProps> = ({ userId, showButtons = tru
         <div className="flex space-x-4 mt-4 justify-center items-center">
           <button
             className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
-            onClick={() => HandleCheckout(cart, clearCart, updateTotal)}
+            onClick={handleCheckoutClick}
           >
             Realizar Pedido
           </button>
