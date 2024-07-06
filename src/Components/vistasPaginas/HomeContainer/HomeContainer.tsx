@@ -5,7 +5,7 @@ import { CategoryButton } from '@/Components/elementos/data/botones/catgoryButto
 const HomeContainer = () => {
     return (
         <div>
-            <div className='flex flex-col items-center sm:mt-8 lg:flex-row lg:justify-center lg:ml-20 xl:justify-center xl:items-center'>
+            <div className='flex flex-col items-center sm:mt-8 lg:flex-row lg:justify-center lg:ml-20 xl:justify-center xl:items-center 2xl:items-center'>
                 <div className='lg:mt-0 lg:flex-1 xl:justify-center xl:ml-40'>
                     <Image
                         src='/auris.png'

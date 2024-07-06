@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
                     height={58}
                     unoptimized
                 />
-                <h1 className='text-white font-sans sm:text-2xl sm:absolute sm:mt-6 sm:ml-4 md:text-3xl md:absolute md:mt-12 md:pt-1 md:top-0 md:left-2 lg:text-4xl lg:left-13 lg:mt-15 lg:pt-3'>NexusTech</h1>
+                <h1 className='text-white font-sans text-2xl absolute mt-6 ml-4 md:text-3xl md:absolute md:mt-12 md:pt-1 md:top-0 md:left-2 lg:text-4xl lg:left-13 lg:mt-15 lg:pt-3 xl:text-4xl 2xl:text-4xl 2xl:text-white'>NexusTech</h1>
             </div>
             <NavbarClient />
         </nav>

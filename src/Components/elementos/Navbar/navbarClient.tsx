@@ -9,7 +9,7 @@ const NavbarClient: React.FC = () => {
 
   return (
     <>
-      <div className="text-white text-xl font-sans flex sm:flex sm:text-sm sm:ml-16 sm:mr-4 sm:space-x-9 sm:mt-8 md:text-lg md:flex md:items-center md:space-x-10 md:ml-4 lg:text-lg lg:ml-10 xl:text-xl xl:ml-20 lg:space-x-16 xl:space-x-28 md:mt-0 2xl:text-2xl 2xl:space-x-40">
+      <div className="text-white font-sans flex text-sm ml-16 mr-4 space-x-9 mt-8 md:text-lg md:flex md:items-center md:space-x-10 md:ml-4 lg:text-lg lg:ml-10 lg:space-x-16 xl:text-xl xl:ml-20 xl:space-x-28 md:mt-0 2xl:text-2xl 2xl:space-x-40">
         <Link href='/' className={`hover:underline ${pathname === '/' ? 'underline' : ''} md:ml-8 lg:ml-16`}>
           Home
         </Link>
