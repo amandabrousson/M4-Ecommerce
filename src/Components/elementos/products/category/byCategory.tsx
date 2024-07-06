@@ -32,7 +32,7 @@ const ProductByCategory: React.FC<ProductCategoryProps> = ({ categoryId }) => {
   }, [categoryId]);
 
   if (loading) {
-    return <div className="text-center">Cargando...</div>;
+    return <div className="text-center">Loading...</div>;
   }
 
   if (error) {

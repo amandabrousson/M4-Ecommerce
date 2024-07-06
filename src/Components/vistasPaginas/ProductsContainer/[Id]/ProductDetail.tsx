@@ -31,7 +31,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ productId }) => {
   }, []);
 
   if (loading) {
-    return <div className="text-center">Cargando...</div>;
+    return <div className="text-center">Loading...</div>;
   }
 
   const product = productos.find(product => product.id.toString() === productId);
