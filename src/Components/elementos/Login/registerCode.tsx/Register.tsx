@@ -68,8 +68,14 @@ const Register = () => {
           address: "",
           phone: ""
         });
-      } catch (error) {
-        setErrorMessage(error instanceof Error ? error.message : "Ocurrió un error durante el registro.");
+      } catch (error: any) {
+        if (error instanceof Error) {
+          if (error.message === 'Email already registered') {
+            setErrorMessage('Email already registered.');
+          } else {
+            setErrorMessage('Ocurrió un error durante el registro. Por favor, inténtelo de nuevo.');
+          }
+        }
       }
     }
   };

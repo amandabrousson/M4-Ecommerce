@@ -61,16 +61,22 @@ export const registerUser = async (userData: RegisterForm) => {
             },
             body: JSON.stringify(userData)
         });
+
         if (response.ok) {
             return response.json();
-        }
-        else {
-            throw new Error('Error during registration');
+        } else if (response.status === 400) {
+            const errorResponse = await response.json();
+            if (errorResponse.message === 'User already exists') {
+                throw new Error('Email already registered');
+            } else {
+                throw new Error('Error during registration');
+            }
         }
     } catch (error) {
         throw error;
     }
 };
+
 
 //Login
 export const loginUser = async (userData: LoginForm) => {
