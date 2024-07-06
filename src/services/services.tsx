@@ -7,7 +7,10 @@ export const getProducts = async (): Promise<IProduct[]> => {
     try {
         const response = await fetch(`${API_URL}/products/`, {
             method: 'GET',
-            next: { revalidate: 3600 }
+            next: { revalidate: 3600 },
+            headers:{
+                'ngrok-skip-browser-warning': 'true'
+            }
         });
         if (!response.ok) {
             throw new Error('Error fetching products');
@@ -29,7 +32,8 @@ export const getUserOrders = async (userId: number, token: string): Promise<{ id
         const response = await fetch(`${API_URL}/users/orders`, {
             headers: {
                 'authorization': `${token}`,
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'ngrok-skip-browser-warning': 'true',
             }
         });
         if (!response.ok) {
@@ -52,7 +56,8 @@ export const registerUser = async (userData: RegisterForm) => {
         const response = await fetch(`${API_URL}/users/register`, {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'ngrok-skip-browser-warning': 'true'
             },
             body: JSON.stringify(userData)
         });
@@ -73,7 +78,8 @@ export const loginUser = async (userData: LoginForm) => {
         const response = await fetch(`${API_URL}/users/login`, {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'ngrok-skip-browser-warning': 'true'
             },
             body: JSON.stringify(userData)
         });
@@ -101,7 +107,8 @@ export const postOrder = async (orderData: { products: number[] }, token: string
     try {
         const headers = {
             "Authorization": `${token}`,
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            'ngrok-skip-browser-warning': 'true'
         };
 
         const response = await fetch(`${API_URL}/orders`, {

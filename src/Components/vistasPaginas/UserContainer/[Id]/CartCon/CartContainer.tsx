@@ -44,7 +44,7 @@ const CartContainer: React.FC<CartContainerProps> = ({ userId, showButtons = tru
           {!showButtons && (
             <div className="mt-4">
               <Button
-                label="Ir al carrito"
+                label="Ir al carrito -->"
                 href={`/User/${userId}/cart`}
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               />
