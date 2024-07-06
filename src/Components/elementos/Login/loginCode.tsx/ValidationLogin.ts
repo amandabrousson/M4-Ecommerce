@@ -6,7 +6,7 @@ export function ValidateLogin(dataUser: LoginForm): LoginFormErrors {
     if (!dataUser.email) {
         errors.email = "Email is required";
     } else if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(dataUser.email)) {
-        errors.email = "Email is not valid or must end with .com";
+        errors.email = "Email must have an @ and end with .com";
     }
     
 
