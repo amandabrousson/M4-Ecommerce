@@ -1,4 +1,4 @@
-import { useCart, clearCartOutside } from "@/Components/elementos/Cart/cartContext";
+import { useCart } from "@/Components/elementos/Cart/cartContext";
 import { HandleCheckout } from "@/Components/elementos/User/id/CartFunctions";
 import Swal from 'sweetalert2';
 import { IProduct } from "@/Components/elementos/Interfaces/interfaces"; 
@@ -36,7 +36,6 @@ export const useCartLogic = () => {
       if (result.isConfirmed) {
         clearCart();
         updateTotal(0);
-        clearCartOutside();
         Swal.fire(
           'Carrito eliminado',
           'El carrito ha sido eliminado correctamente.',

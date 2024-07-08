@@ -104,7 +104,3 @@ export const useCart = () => {
     return context;
 };
 
-export const clearCartOutside = () => {
-    localStorage.removeItem("cart");
-    console.log("Carrito borrado fuera del contexto del componente.");
-};

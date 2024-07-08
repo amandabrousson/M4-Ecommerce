@@ -1,4 +1,3 @@
-import { clearCartOutside } from "@/Components/elementos/Cart/cartContext";
 import { IProduct } from "../../Interfaces/interfaces";
 import checkoutOrder from "../../data/botones/checkout";
 import Swal from 'sweetalert2';
@@ -19,7 +18,6 @@ export const HandleCheckout = async (cart: IProduct[], clearCart: () => void, up
 
     clearCart();
     updateTotal(0);
-    clearCartOutside();
   } catch (error) {
     console.error("Error durante el checkout:", error);
     if (error === "Token de usuario no encontrado") {
