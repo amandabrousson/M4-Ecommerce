@@ -23,7 +23,7 @@ const ProductByCategory: React.FC<ProductCategoryProps> = ({ categoryId }) => {
         setLoading(false);
       } catch (error) {
         console.error('Error fetching products:', error);
-        setError('Error al obtener los productos. Por favor, inténtalo de nuevo más tarde.');
+        setError('Error al obtener los productos. Por favor, inténtalo de nuevo.');
         setLoading(false);
       }
     };

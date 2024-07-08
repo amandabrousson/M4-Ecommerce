@@ -18,7 +18,7 @@ const CartContainer: React.FC<CartContainerProps> = ({ userId, showButtons = tru
     HandleCheckout(cart, clearCart, updateTotal);
     setTimeout(() => {
       router.push(`/User/${userId}/dashboard`);
-    }, 3000);
+    }, 2000);
   };
   return (
     <div className="bg-gray-800 text-white p-8 rounded-lg sm:m-6 md:m-10 xl:m-20 lg:m-10">
