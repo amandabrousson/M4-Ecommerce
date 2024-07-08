@@ -51,7 +51,7 @@ export const getUserOrders = async (userId: number, token: string): Promise<{ id
 };
 
 // Register 
-export const registerUser = async (userData: RegisterForm) => {
+export const registerUser = async (formData: RegisterForm) => {
     try {
         const response = await fetch(`${API_URL}/users/register`, {
             method: 'POST',
@@ -59,7 +59,7 @@ export const registerUser = async (userData: RegisterForm) => {
                 'Content-Type': 'application/json',
                 'ngrok-skip-browser-warning': 'true'
             },
-            body: JSON.stringify(userData)
+            body: JSON.stringify(formData)
         });
 
         if (response.ok) {
