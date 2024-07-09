@@ -10,8 +10,8 @@ export function ValidateRegister(formData: RegisterForm): RegisterFormErrors {
     if (!formData.email) {
         errors.email = "Email is required";
     } else if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(formData.email)) {
-        errors.email = "Email is not valid";
-    }
+        errors.email = "Email must have @ and .com";
+    } 
 
     if (!formData.phone) {
         errors.phone = "Phone is required";

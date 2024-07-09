@@ -1,3 +1,4 @@
+'use client'
 import { useState, useEffect } from 'react';
 import { getProducts } from '@/services/services';
 import { IProduct } from '../../Interfaces/interfaces';

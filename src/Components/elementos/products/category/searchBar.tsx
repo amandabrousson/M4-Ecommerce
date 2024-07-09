@@ -1,4 +1,3 @@
-'use client'
 import CategoriesProducts from "../categoriesproducts";
 import SearchChange from "./searchChange";
 import useProductsContainerLogic from "./useChange";
