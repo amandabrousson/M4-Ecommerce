@@ -1,9 +1,10 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
 import DeleteButton from "@/Components/elementos/data/botones/trashButton";
 import Button from "@/Components/elementos/data/botones/backtoProducts";
 import { useCartLogic } from '@/Components/elementos/Cart/cartLogic'; 
 import { useRouter } from 'next/navigation';
+import { useAuth } from '@/Components/authContext';
 
 interface CartContainerProps {
   userId: number;
@@ -13,6 +14,14 @@ interface CartContainerProps {
 const CartClient: React.FC<CartContainerProps> = ({ userId, showButtons = true }) => {
   const router = useRouter(); 
   const {cart, total, clearCart, updateTotal, removeFromCart, handleQuantityChange, confirmClearCart, HandleCheckout} = useCartLogic();
+  const {token} = useAuth();
+console.log('token', token);
+
+  useEffect(()=>{
+    if(!token){
+      router.push('/User/login')
+    }
+  }, [])
 
   const handleCheckoutClick = () => {
     HandleCheckout(cart, clearCart, updateTotal);

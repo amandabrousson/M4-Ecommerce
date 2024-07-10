@@ -1,11 +1,21 @@
+'use client';
 import { useAuth } from '@/Components/authContext';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
+import React, { useEffect } from 'react';
 
 const DashboardProfile = () => {
     const { userData } = useAuth();
+    const router = useRouter();
+    
+    useEffect(() => {
+        if (!userData) {
+            router.push('/User/login');
+        }
+    }, [userData, router]);
 
     if (!userData) {
-        return <div>Loading...</div>;
+        return null; 
     }
 
     return (
@@ -40,4 +50,5 @@ const DashboardProfile = () => {
         </div>
     );
 };
+
 export default DashboardProfile;
