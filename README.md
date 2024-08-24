@@ -3,31 +3,27 @@
 Página web con estructura fullstack. Se encuentra comprendida por un backend preexistente y un frontend desarrollado posteirormente. El desafío es armar la Single Page Application de un E-commerce en funcion del codigo del backend puesto a disposición.   
 
 🛠️ Tecnologías utilizadas:
-- Javascript
-- CSS
-- Express
-- Node
-- Jest
-- Ajax
-- Base de datos (MongoDB ATLAS, MongoDB COMPASS, mongoose). 
+- NextJs
+- Tailwind
+- Microfrontend
 
 🎯 Objetivos:
-- Diseñar una aplicación de películas, dentro de la cual se puedan consultar, agregar o eliminar películas.
+- Diseñar una aplicación de E-commerce, dentro de la cual se puedan consultar productos según sus categorías, agregarlos al carrito (una vez autenticados) y comprarlos. Posteriormente poder visualizar los datos de compra en un historial de compras del usuario. 
 - Manejo de repositorios con Git y Github.
 - Manejo de protocolos de comunicación.
 - Manejo de bases de datos. 
 
 🚀 Desarrollo:
 
-⭐ HomeMovies ⭐
+⭐ NextTech ⭐
 
-![image](https://github.com/user-attachments/assets/684ae0df-c16e-4c80-a222-f441d9e1f62b)
+![image](https://github.com/user-attachments/assets/1aa8e8d5-bcb6-4bcc-9a79-460f8d1c926d)
 
 Se compone por:
 
-- Sección “Index”, la cual ejecuta el catálogo de películas disponibles.
+- Sección “Home”, la cual ejecuta un producto de manera introductoria, teniendo a su lado un botón que dirige a la categoría a la cual pertenece el producto.
 
-![image](https://github.com/user-attachments/assets/bbc95d90-f996-4943-9115-3ab7382e1f7c)
+  ![image](https://github.com/user-attachments/assets/58ef3d74-07c1-4913-92aa-5e3bf8a3556f)
 
   Al hacer click en la portada de la película se podrán visualizar detalles de la misma, tales como director, género, duración, calificación, así como el video de su trailer. Con el botón cerrar puede esconder la   información y visualizar nuevamente la portada de la película.
 
