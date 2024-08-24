@@ -21,17 +21,22 @@ Página web con estructura fullstack. Se encuentra comprendida por un backend pr
 
 Se compone por:
 
-- Sección “Home”, la cual ejecuta un producto de manera introductoria, teniendo a su lado un botón que dirige a la categoría a la cual pertenece el producto.
+- Sección “Home”, la cual ejecuta un producto de manera introductoria, teniendo a su lado un botón que redirige a la categoría a la cual pertenece el producto.
 
   ![image](https://github.com/user-attachments/assets/58ef3d74-07c1-4913-92aa-5e3bf8a3556f)
 
-  Al hacer click en la portada de la película se podrán visualizar detalles de la misma, tales como director, género, duración, calificación, así como el video de su trailer. Con el botón cerrar puede esconder la   información y visualizar nuevamente la portada de la película.
+- Sección “Products”, la cual ejecuta información como novedades, así como información de compra.
 
-  ![image](https://github.com/user-attachments/assets/7460c404-3c90-4198-8ced-3ecd4cf22176)
+![image](https://github.com/user-attachments/assets/86df244d-83b1-4098-bdfb-2a0d1671fbf5)
 
-- Sección “Sobre la web”, la cual provee información relativa a la aplicación
+  asimismo, ejecuta un buscador, el cual busca a partir del término proporcionado:
 
-![image](https://github.com/user-attachments/assets/d2001b56-cedb-4580-9c16-5b288e5466c7)
+  ![image](https://github.com/user-attachments/assets/ce8fede7-037f-4e6b-8705-47fe17834ef6)
+
+  y por debajo del buscador se encuentran las categorías que contienen a los productos disponibles en la página:
+
+![image](https://github.com/user-attachments/assets/03dd06a7-9f1a-4c7b-bfb7-c816442320e7)
+
   
 - Sección “Otras webs”, la cual detalla de qué medios saca la información de su página, así como tambien sugiere la consulta de otras webs vinculadas al mundo del cine:
   
