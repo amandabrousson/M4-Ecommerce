@@ -47,7 +47,14 @@ Se compone por:
 
   En caso de no estar autenticado sí puede acceder a ver más detalles:
 
-  ![image](https://github.com/user-attachments/assets/c9e8a624-8964-4547-904f-6421cd3fc9b3)
+![image](https://github.com/user-attachments/assets/b0d1db0f-3cec-4a6c-a410-daf4d16d0b1c)
+
+- En la sección "Log in" el usuario tendrá la posibilidad de registrarse, o en caso de tener una cuenta, iniciar sesión.
+
+![image](https://github.com/user-attachments/assets/e1772462-3cb3-403f-ac91-cd7f462c050a) ![image](https://github.com/user-attachments/assets/433cb1f6-9047-4cdf-9dd0-c364981e98bf)
+
+
+
 
   
 
