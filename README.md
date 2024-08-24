@@ -49,9 +49,62 @@ Se compone por:
 
 ![image](https://github.com/user-attachments/assets/b0d1db0f-3cec-4a6c-a410-daf4d16d0b1c)
 
-- En la sección "Log in" el usuario tendrá la posibilidad de registrarse, o en caso de tener una cuenta, iniciar sesión.
+- En la sección "Log in" el usuario tendrá la posibilidad de registrarse
 
-![image](https://github.com/user-attachments/assets/e1772462-3cb3-403f-ac91-cd7f462c050a) ![image](https://github.com/user-attachments/assets/433cb1f6-9047-4cdf-9dd0-c364981e98bf)
+![image](https://github.com/user-attachments/assets/e1772462-3cb3-403f-ac91-cd7f462c050a) 
+
+ En caso de tener una cuenta, iniciar sesión.
+
+![image](https://github.com/user-attachments/assets/433cb1f6-9047-4cdf-9dd0-c364981e98bf)
+
+- Al iniciar sesión, en el header de la página se ejecutará el botón de "Logout", así como un carrito que redirigirá al carrito de compras del usuario autenticado. Asimismo, en la barra de navegación Login         pasará a ejecutar "My Account"
+
+![image](https://github.com/user-attachments/assets/10646c71-1697-43de-bd55-4364009de09f)
+
+Asimismo, al iniciar sesión el usuario será redirigido a su perfil en el cual encontrará su perfil con sus datos:
+
+![image](https://github.com/user-attachments/assets/97c47d1d-611c-40d8-b143-8695162aa9ee)
+
+Un resumen de su carrito:
+
+![image](https://github.com/user-attachments/assets/2b09c5b3-18da-4489-917a-473cb3024a00)
+
+y el historial de compas que detalla el id de la compra, su estado, fecha y hora y total:
+
+![image](https://github.com/user-attachments/assets/bf326698-24e7-407d-a558-e5e8b970fd7f)
+
+- Para efectuar la compra debe dirigirse al carrito, al cual puede acceder por el ícono del header, o bien por el resumen del carrito.
+
+Una vez en el carrito podrá visualizar sus productos
+
+![image](https://github.com/user-attachments/assets/00b11c36-d17c-4582-aafb-b60d7387f98e)
+
+Tendrá la posibilidad de borrar alguno de ellos:
+
+![image](https://github.com/user-attachments/assets/76018f90-a328-4e05-ae97-5a199357f7bd)
+
+o todo el carrito por medio del boton "Eliminar carrito":
+
+![image](https://github.com/user-attachments/assets/1c42216c-8271-40c0-a193-8832e88bf055)
+
+En ambos casos se ejecutarán alertas para confirmar su eliminación. 
+
+![image](https://github.com/user-attachments/assets/084fa632-a154-4d6a-96bd-cf7fbd5250cb)
+![image](https://github.com/user-attachments/assets/fb1bcba0-0b9f-4520-b588-7cfc340faff5)
+
+- Una vez realizada la compra se ejecutará una alerta de éxito:
+
+![image](https://github.com/user-attachments/assets/a2035a86-8d04-45e8-bd06-aa445ccf7363)
+
+y el usuario será redirigido a su perfil. 
+
+
+
+
+
+
+
+
 
 
 
