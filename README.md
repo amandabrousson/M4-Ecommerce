@@ -49,6 +49,10 @@ Se compone por:
 
 ![image](https://github.com/user-attachments/assets/b0d1db0f-3cec-4a6c-a410-daf4d16d0b1c)
 
+  Si el usuario está autenticado, al agregar un producto al carrito se ejecutará una alerta de confirmación:
+
+  ![image](https://github.com/user-attachments/assets/537b26eb-a69e-47be-9418-a76ab3bd1d7d)
+
 - En la sección "Log in" el usuario tendrá la posibilidad de registrarse
 
 ![image](https://github.com/user-attachments/assets/e1772462-3cb3-403f-ac91-cd7f462c050a) 
