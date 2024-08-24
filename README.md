@@ -29,24 +29,30 @@ Se compone por:
 
 ![image](https://github.com/user-attachments/assets/86df244d-83b1-4098-bdfb-2a0d1671fbf5)
 
-  asimismo, ejecuta un buscador, el cual busca a partir del término proporcionado:
+  Asimismo, ejecuta un buscador, el cual busca a partir del término proporcionado:
 
   ![image](https://github.com/user-attachments/assets/ce8fede7-037f-4e6b-8705-47fe17834ef6)
 
-  y por debajo del buscador se encuentran las categorías que contienen a los productos disponibles en la página:
+  Por debajo del buscador se encuentran las categorías que contienen a los productos disponibles en la página:
 
 ![image](https://github.com/user-attachments/assets/03dd06a7-9f1a-4c7b-bfb7-c816442320e7)
 
-  
-- Sección “Otras webs”, la cual detalla de qué medios saca la información de su página, así como tambien sugiere la consulta de otras webs vinculadas al mundo del cine:
-  
-   ![image](https://github.com/user-attachments/assets/f0f45d00-a8b5-4988-b844-1bd1063e3163)
+  Al ingresar a alguna de las categorías, la página renderizará el nombre de acuerdo a la categoría seleccionada y los productos que corresponden a la misma. Los productos se ejecutarán con su marca, nombre,        imagen y precio. Asimismo, tiene la posibilidad de agregar el producto a su carrito, o bien acceder para visualizar más información sobre el producto en cuestión:
 
-- Finalmente, cuenta con la sección "Agregar películas", la cual permite al usuario agregar nuevas películas. Las mismas se guardan en una base de datos para lograr su persistencia en la página incluso después de   cerrarla.
+  ![image](https://github.com/user-attachments/assets/85aeeaea-0bef-4ccc-b3ed-c6f533a12928)
 
-  Para poder agregar la película será indispensable que rellene todos los campos del formulario.
+  Para agregar un producto al carrito el usuario debe estar autenticado:
+
+  ![image](https://github.com/user-attachments/assets/8dc17d4d-9366-4cab-b7dd-48ef43586828)
+
+  En caso de no estar autenticado sí puede acceder a ver más detalles:
+
+  ![image](https://github.com/user-attachments/assets/c9e8a624-8964-4547-904f-6421cd3fc9b3)
+
   
-  ![image](https://github.com/user-attachments/assets/4f432e3f-c291-4e7f-8a1c-1b56847d1dbb)
+
+
+
   
 
   
