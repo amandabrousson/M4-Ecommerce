@@ -2,18 +2,58 @@
 
 Página web con estructura fullstack. Se encuentra comprendida por un backend preexistente y un frontend desarrollado posteirormente. El desafío es armar la Single Page Application de un E-commerce en funcion del codigo del backend puesto a disposición.   
 
-🛠️ Tecnologías utilizadas:
+## 🛠️ Tecnologías utilizadas:
 - NextJs
 - Tailwind
 - Microfrontend
 
-🎯 Objetivos:
+## 🎯 Objetivos:
 - Diseñar una aplicación de E-commerce, dentro de la cual se puedan consultar productos según sus categorías, agregarlos al carrito (una vez autenticados) y comprarlos. Posteriormente poder visualizar los datos de compra en un historial de compras del usuario. 
 - Manejo de repositorios con Git y Github.
 - Manejo de protocolos de comunicación.
-- Manejo de bases de datos. 
+- Manejo de bases de datos.
 
-🚀 Desarrollo:
+## Instalación
+
+Sigue estos pasos para clonar y ejecutar el proyecto:
+
+1. **Clonar el repositorio**:
+
+   ```bash
+   git clone https://github.com/amandabrousson/P4Henry-Ecommerce.git
+
+2. **Ejecutarlo en Visual Studio Code e instalar sus dependencias en el backend como frontend**:
+
+    ```bash
+    Npm install
+
+ 3. **Para ejecutar el proyecto y ver la página desde el frontend **:
+
+    ```bash
+    Npm run dev
+
+ 4. **Para ejecutar el proyecto desde el backend **:
+
+    ```bash
+    Npm start
+
+5. Crear archivo .env. Dentro de este archivo, se encontrarán las variables de entorno necesarias para ejecutar la conexión con la base de datos y el puerto de escucha del servidor Express.
+
+Variables a definir
+- Puerto del backend, Usuario y clave de PostgreSQL y nombre de la base de datos.
+
+  ```bash
+  PORT=3000
+  DB_HOST=example_host 
+  DB_PORT=example_db_port
+  DB_USER=example_db_user
+  DB_PASSWORD=example_db_password
+  DB_NAME=example_db_name
+  JWT_SECRET=example_jwt_name
+  EMAIL_USER=example_email   
+  EMAIL_PASS=example_email_password
+
+## 🚀 Desarrollo:
 
 ⭐ NextTech ⭐
 
