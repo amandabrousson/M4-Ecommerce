@@ -1,4 +1,10 @@
-🌟 Cuarto proyecto del bootcamp de programación fullstack SoyHenry - orientación frontend.
+![image](https://github.com/user-attachments/assets/7a2bbd81-a6f8-477a-996a-6d20e7928b5a)
+
+Cuarto proyecto del bootcamp de programación fullstack SoyHenry - orientación frontend.
+
+⭐ NextTech ⭐
+
+![image](https://github.com/user-attachments/assets/1aa8e8d5-bcb6-4bcc-9a79-460f8d1c926d)
 
 Página web con estructura fullstack. Se encuentra comprendida por un backend preexistente y un frontend desarrollado posteirormente. El desafío es armar la Single Page Application de un E-commerce en funcion del codigo del backend puesto a disposición.   
 
@@ -54,10 +60,6 @@ Variables a definir
   EMAIL_PASS=example_email_password
 
 ## 🚀 Desarrollo:
-
-⭐ NextTech ⭐
-
-![image](https://github.com/user-attachments/assets/1aa8e8d5-bcb6-4bcc-9a79-460f8d1c926d)
 
 Se compone por:
 
